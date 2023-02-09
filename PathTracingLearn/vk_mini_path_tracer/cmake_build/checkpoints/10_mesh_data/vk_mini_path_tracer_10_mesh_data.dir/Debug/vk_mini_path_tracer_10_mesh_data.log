@@ -1,3 +1,0 @@
-﻿  main.cpp
-E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf\stb_image_write.h(742,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  vk_mini_path_tracer_10_mesh_data.vcxproj -> E:\Vulkan\PathTracingLearn\bin_x64\Debug\vk_mini_path_tracer_10_mesh_data.exe
