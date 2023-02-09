@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\7_descriptors\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvp\perproject_globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\nsight_aftermath_vk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvp\resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf\tiny_gltf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf\json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinyobjloader\tiny_obj_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\third_party\vma\include\vk_mem_alloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\third_party\NVTX\c\include\nvtx3\nvToolsExt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\7_descriptors\shaders\raytrace.comp.glsl">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\7_descriptors\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvp\resources.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{249ABC5E-E121-32D3-A2A4-43A3E85E0407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{5556A8DB-7440-32AF-98D5-7D7C20C0DA2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{60BFFEB3-E78E-34E9-BEBE-13DA5820C0C6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\f661dc478bd95fb777fefc87944ae0a1\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B75DECE0-AC9D-304B-99F3-439826A47C28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

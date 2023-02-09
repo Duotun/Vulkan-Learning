@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3D6D18BC-BFEA-3227-AED0-DF0AACBC6D4F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer;E:\Vulkan\PathTracingLearn\nvpro_core;E:\Vulkan\PathTracingLearn\nvpro_core\nvp;D:\ToolSoftwares\Vulkan\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer;E:\Vulkan\PathTracingLearn\nvpro_core;E:\Vulkan\PathTracingLearn\nvpro_core\nvp;D:\ToolSoftwares\Vulkan\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer;E:\Vulkan\PathTracingLearn\nvpro_core;E:\Vulkan\PathTracingLearn\nvpro_core\nvp;D:\ToolSoftwares\Vulkan\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer;E:\Vulkan\PathTracingLearn\nvpro_core;E:\Vulkan\PathTracingLearn\nvpro_core\nvp;D:\ToolSoftwares\Vulkan\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Vulkan/PathTracingLearn/vk_mini_path_tracer -BE:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build --check-stamp-file E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;E:\Vulkan\PathTracingLearn\nvpro_core\cmake\find\FindVulkanSDK.cmake;E:\Vulkan\PathTracingLearn\nvpro_core\cmake\setup.cmake;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Vulkan/PathTracingLearn/vk_mini_path_tracer -BE:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build --check-stamp-file E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;E:\Vulkan\PathTracingLearn\nvpro_core\cmake\find\FindVulkanSDK.cmake;E:\Vulkan\PathTracingLearn\nvpro_core\cmake\setup.cmake;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Vulkan/PathTracingLearn/vk_mini_path_tracer -BE:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build --check-stamp-file E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;E:\Vulkan\PathTracingLearn\nvpro_core\cmake\find\FindVulkanSDK.cmake;E:\Vulkan\PathTracingLearn\nvpro_core\cmake\setup.cmake;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Vulkan/PathTracingLearn/vk_mini_path_tracer -BE:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build --check-stamp-file E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;E:\Vulkan\PathTracingLearn\nvpro_core\cmake\find\FindVulkanSDK.cmake;E:\Vulkan\PathTracingLearn\nvpro_core\cmake\setup.cmake;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\ZERO_CHECK.vcxproj">
+      <Project>{EA337BA8-DF7B-39E9-BED1-E3006B0EB8AB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\nvpro_core\third_party\glfw\src\glfw.vcxproj">
+      <Project>{568F5359-1B7B-3B7B-BB70-7686CD249156}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\nvpro_core\third_party\imgui.vcxproj">
+      <Project>{175049E8-E4FD-3E45-B858-2FB01DCF0AC7}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\nvpro_core\nvpro_core.vcxproj">
+      <Project>{A71B9A2A-7C68-3AA8-874A-D3236E283F7A}</Project>
+      <Name>nvpro_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\vk_mini_path_tracer\vk_mini_path_tracer.vcxproj">
+      <Project>{B3D709BB-1EBF-3F9B-ADF6-B1BF68C3A002}</Project>
+      <Name>vk_mini_path_tracer</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\10_mesh_data\vk_mini_path_tracer_10_mesh_data.vcxproj">
+      <Project>{2917B798-E877-36BA-BC88-5CB7BD178678}</Project>
+      <Name>vk_mini_path_tracer_10_mesh_data</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\11_specular\vk_mini_path_tracer_11_specular.vcxproj">
+      <Project>{84CD1B26-BE76-32B5-AEEA-50807F9E4D67}</Project>
+      <Name>vk_mini_path_tracer_11_specular</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\12_antialiasing\vk_mini_path_tracer_12_antialiasing.vcxproj">
+      <Project>{5C45BCBB-5B44-3E86-9131-C7A5004CC24F}</Project>
+      <Name>vk_mini_path_tracer_12_antialiasing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\1_hello_vulkan\vk_mini_path_tracer_1_hello_vulkan.vcxproj">
+      <Project>{4091BD11-9DCA-3786-9BE4-8F180A1E1CB8}</Project>
+      <Name>vk_mini_path_tracer_1_hello_vulkan</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\2_extensions\vk_mini_path_tracer_2_extensions.vcxproj">
+      <Project>{314F4CAA-9545-3F96-B0CA-4C6CF5C77DCA}</Project>
+      <Name>vk_mini_path_tracer_2_extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\3_memory\vk_mini_path_tracer_3_memory.vcxproj">
+      <Project>{4CBDE0E2-BF41-361D-9944-8354CE0E2AD1}</Project>
+      <Name>vk_mini_path_tracer_3_memory</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\4_commands\vk_mini_path_tracer_4_commands.vcxproj">
+      <Project>{F88EECB1-1213-3BAE-A196-BE30549F7484}</Project>
+      <Name>vk_mini_path_tracer_4_commands</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\5_write_image\vk_mini_path_tracer_5_write_image.vcxproj">
+      <Project>{B46B6348-4745-3933-A8C2-537471B3B02A}</Project>
+      <Name>vk_mini_path_tracer_5_write_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\6_compute_shader\vk_mini_path_tracer_6_compute_shader.vcxproj">
+      <Project>{D3D974AD-338D-31CB-9704-06BF79EBB438}</Project>
+      <Name>vk_mini_path_tracer_6_compute_shader</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\7_descriptors\vk_mini_path_tracer_7_descriptors.vcxproj">
+      <Project>{ADD912FA-E916-3844-8395-9B1E22753F72}</Project>
+      <Name>vk_mini_path_tracer_7_descriptors</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\8_ray_tracing\vk_mini_path_tracer_8_ray_tracing.vcxproj">
+      <Project>{EF0A5714-95E1-33AB-9565-E91EACB392EE}</Project>
+      <Name>vk_mini_path_tracer_8_ray_tracing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\9_intersection\vk_mini_path_tracer_9_intersection.vcxproj">
+      <Project>{ADA9D9E1-44C7-3CF5-8FC2-3131519EFC55}</Project>
+      <Name>vk_mini_path_tracer_9_intersection</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\_edit\vk_mini_path_tracer__edit.vcxproj">
+      <Project>{3B9F7442-FD64-38A2-8F7A-EB0E46E6B9F7}</Project>
+      <Name>vk_mini_path_tracer__edit</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\e10_materials\vk_mini_path_tracer_e10_materials.vcxproj">
+      <Project>{4CFAF9A6-EAC5-3E86-B7F3-A23BADF5D593}</Project>
+      <Name>vk_mini_path_tracer_e10_materials</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\e11_rt_pipeline_1\vk_mini_path_tracer_e11_rt_pipeline_1.vcxproj">
+      <Project>{C7E27719-0280-38E9-98CA-E630CD73DA39}</Project>
+      <Name>vk_mini_path_tracer_e11_rt_pipeline_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\e11_rt_pipeline_2\vk_mini_path_tracer_e11_rt_pipeline_2.vcxproj">
+      <Project>{113D4E32-B4D6-39AE-BE46-C3F3000C0B80}</Project>
+      <Name>vk_mini_path_tracer_e11_rt_pipeline_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\e11_rt_pipeline_3\vk_mini_path_tracer_e11_rt_pipeline_3.vcxproj">
+      <Project>{F47B0522-B950-3ED4-9A25-E86B62F6DF67}</Project>
+      <Name>vk_mini_path_tracer_e11_rt_pipeline_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\e1_gaussian\vk_mini_path_tracer_e1_gaussian.vcxproj">
+      <Project>{AD249A03-7EEC-344B-AAEB-C768AC969B1A}</Project>
+      <Name>vk_mini_path_tracer_e1_gaussian</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\e3_compaction\vk_mini_path_tracer_e3_compaction.vcxproj">
+      <Project>{B71608CA-1253-318E-B7B4-B1B04406D325}</Project>
+      <Name>vk_mini_path_tracer_e3_compaction</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\e4_include\vk_mini_path_tracer_e4_include.vcxproj">
+      <Project>{BBAC4973-DF2A-3EDD-99B7-1BFEB5015C3B}</Project>
+      <Name>vk_mini_path_tracer_e4_include</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\e5_push_constants\vk_mini_path_tracer_e5_push_constants.vcxproj">
+      <Project>{ED237AB1-FF59-3B16-97AA-F13F37FF2C42}</Project>
+      <Name>vk_mini_path_tracer_e5_push_constants</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\e6_more_samples\vk_mini_path_tracer_e6_more_samples.vcxproj">
+      <Project>{147F5893-543C-3AF7-9565-14554E2C16FC}</Project>
+      <Name>vk_mini_path_tracer_e6_more_samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\e7_image\vk_mini_path_tracer_e7_image.vcxproj">
+      <Project>{4D3E885F-FCA4-3B68-83E2-7C74F241510A}</Project>
+      <Name>vk_mini_path_tracer_e7_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\e8_debug_names\vk_mini_path_tracer_e8_debug_names.vcxproj">
+      <Project>{CF1390FF-D7EA-3607-BE61-569E912D26BF}</Project>
+      <Name>vk_mini_path_tracer_e8_debug_names</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\e9_instances\vk_mini_path_tracer_e9_instances.vcxproj">
+      <Project>{16E50305-B066-3810-B1C3-A03A51083621}</Project>
+      <Name>vk_mini_path_tracer_e9_instances</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

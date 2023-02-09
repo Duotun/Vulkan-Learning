@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\nvpro_core\CMakeFiles\nvpro_core.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\appwindowprofiler.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\bitarray.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\cameramanipulator.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\filemapping.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\gltfscene.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\nvprint.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\parametertools.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\profiler.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\shaderfilemanager.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\fileformats\nv_dds.cpp">
+      <Filter>fileformats</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\fileformats\tiny_converter.cpp">
+      <Filter>fileformats</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvp\nvpwindow.cpp">
+      <Filter>nvp</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvp\nvpsystem.cpp">
+      <Filter>nvp</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvp\nvpfilesystem.cpp">
+      <Filter>nvp</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvp\nvpsystem_win32.cpp">
+      <Filter>nvp</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\appbase_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\appbase_vkpp.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\appwindowprofiler_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\buffersuballocator_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\commands_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\context_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\debug_util_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\descriptorsets_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\dynamicrendering_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\error_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\extensions_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\gizmos_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\images_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\memallocator_dedicated_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\memallocator_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\memorymanagement_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\memorymanagement_vkgl.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\pipeline_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\profiler_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\raytraceKHR_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\raytraceNV_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\renderpasses_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\resourceallocator_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\samplers_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\sbtwrapper_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\shadermodulemanager_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\stagingmemorymanager_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\swapchain_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\alignment.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\appwindowcamerainertia.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\appwindowprofiler.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\bitarray.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\cameracontrol.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\camerainertia.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\cameramanipulator.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\container_utils.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\filemapping.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\fileoperations.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\geometry.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\gltfscene.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\inputparser.h">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\misc.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\nsightevents.h">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\nvprint.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\parametertools.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\profiler.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\radixsort.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\shaderfilemanager.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\threading.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\timesampler.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvh\trangeallocator.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvmath\nvmath.h">
+      <Filter>nvmath</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvmath\nvmath.inl">
+      <Filter>nvmath</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvmath\nvmath_glsltypes.h">
+      <Filter>nvmath</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvmath\nvmath_hlsltypes.h">
+      <Filter>nvmath</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvmath\nvmath_types.h">
+      <Filter>nvmath</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\fileformats\bmp.hpp">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\fileformats\cadscenefile.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\fileformats\khr_df.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\fileformats\nv_dds.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\fileformats\nv_ktx.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\fileformats\nv_ktx.inl">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\fileformats\tiny_converter.hpp">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\fileformats\tiny_gltf_freeimage.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvp\nvpwindow.hpp">
+      <Filter>nvp</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvp\nvpsystem.hpp">
+      <Filter>nvp</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvp\nvpfilesystem.hpp">
+      <Filter>nvp</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvp\perproject_globals.hpp">
+      <Filter>nvp</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\appbase_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\appbase_vkpp.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\appwindowprofiler_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\buffers_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\buffersuballocator_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\commands_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\context_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\debug_util_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\descriptorsets_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\dynamicrendering_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\error_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\extensions_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\gizmos_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\images_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\memallocator_dedicated_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\memallocator_dma_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\memallocator_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\memallocator_vma_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\memallocator_vma_vk.inl">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\memorymanagement_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\memorymanagement_vkgl.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\nsight_aftermath_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\pipeline_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\profiler_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\raypicker_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\raytraceKHR_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\raytraceNV_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\renderpasses_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\resourceallocator_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\samplers_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\sbtwrapper_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\shadermodulemanager_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\shaders_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\stagingmemorymanager_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\structs_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\swapchain_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ToolSoftwares\Vulkan\Include\vulkan\vulkan_core.h">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\nvpro_core\CMakeFiles\nvpro_core.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\nvpro_core\CMakeFiles\nvpro_core.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\nvpro_core\CMakeFiles\nvpro_core.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\nvpro_core\CMakeFiles\nvpro_core.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf\tiny_gltf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf\json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinyobjloader\tiny_obj_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\third_party\vma\include\vk_mem_alloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\third_party\NVTX\c\include\nvtx3\nvToolsExt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Vulkan\PathTracingLearn\nvpro_core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{249ABC5E-E121-32D3-A2A4-43A3E85E0407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{6603C137-CD72-3719-9272-8AC2505FFFB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{60BFFEB3-E78E-34E9-BEBE-13DA5820C0C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vulkan">
+      <UniqueIdentifier>{594D47CD-5EDC-337B-B6AB-6ADF12E596C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fileformats">
+      <UniqueIdentifier>{4A7E453C-97D1-3881-BEC5-B8B67BEF6D0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nvh">
+      <UniqueIdentifier>{4BBF5DEE-3B39-3315-AC28-F54400F07683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nvmath">
+      <UniqueIdentifier>{47273372-5B88-336B-A8F4-C7109BE6122F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nvp">
+      <UniqueIdentifier>{6D2C6B6B-8FCF-301F-8FF8-2208A62D1534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nvvk">
+      <UniqueIdentifier>{758D1197-5B44-37CF-A594-C5003EBD2262}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

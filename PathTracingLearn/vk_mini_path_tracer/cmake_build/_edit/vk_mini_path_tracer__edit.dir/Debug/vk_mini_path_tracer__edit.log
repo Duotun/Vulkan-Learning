@@ -1,0 +1,4 @@
+﻿  Generating E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/_edit/shaders/raytrace.comp.glsl.spv
+  D:/ToolSoftwares/Vulkan/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace.comp.glsl.spv -g E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/_edit/shaders/raytrace.comp.glsl
+  E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/_edit/shaders/raytrace.comp.glsl
+  vk_mini_path_tracer__edit.vcxproj -> E:\Vulkan\PathTracingLearn\bin_x64\Debug\vk_mini_path_tracer__edit.exe

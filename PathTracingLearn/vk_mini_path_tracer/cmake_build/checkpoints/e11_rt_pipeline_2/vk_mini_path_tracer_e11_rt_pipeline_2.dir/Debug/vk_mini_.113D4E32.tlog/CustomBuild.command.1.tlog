@@ -1,0 +1,58 @@
+^E:\VULKAN\PATHTRACINGLEARN\VK_MINI_PATH_TRACER\CHECKPOINTS\E11_RT_PIPELINE_2\SHADERS\MATERIAL0.RCHIT.GLSL
+setlocal
+cd E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\e11_rt_pipeline_2
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+echo D:/ToolSoftwares/Vulkan/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/material0.rchit.glsl.spv -g E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/checkpoints/e11_rt_pipeline_2/shaders/material0.rchit.glsl
+if %errorlevel% neq 0 goto :cmEnd
+D:\ToolSoftwares\Vulkan\bin\glslangValidator.exe --target-env vulkan1.2 -o shaders/material0.rchit.glsl.spv -g E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/checkpoints/e11_rt_pipeline_2/shaders/material0.rchit.glsl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\VULKAN\PATHTRACINGLEARN\VK_MINI_PATH_TRACER\CHECKPOINTS\E11_RT_PIPELINE_2\SHADERS\RAYTRACE.RGEN.GLSL
+setlocal
+cd E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\e11_rt_pipeline_2
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+echo D:/ToolSoftwares/Vulkan/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace.rgen.glsl.spv -g E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/checkpoints/e11_rt_pipeline_2/shaders/raytrace.rgen.glsl
+if %errorlevel% neq 0 goto :cmEnd
+D:\ToolSoftwares\Vulkan\bin\glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace.rgen.glsl.spv -g E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/checkpoints/e11_rt_pipeline_2/shaders/raytrace.rgen.glsl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\VULKAN\PATHTRACINGLEARN\VK_MINI_PATH_TRACER\CHECKPOINTS\E11_RT_PIPELINE_2\SHADERS\RAYTRACE.RMISS.GLSL
+setlocal
+cd E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\e11_rt_pipeline_2
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+echo D:/ToolSoftwares/Vulkan/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace.rmiss.glsl.spv -g E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/checkpoints/e11_rt_pipeline_2/shaders/raytrace.rmiss.glsl
+if %errorlevel% neq 0 goto :cmEnd
+D:\ToolSoftwares\Vulkan\bin\glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace.rmiss.glsl.spv -g E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/checkpoints/e11_rt_pipeline_2/shaders/raytrace.rmiss.glsl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\VULKAN\PATHTRACINGLEARN\VK_MINI_PATH_TRACER\CHECKPOINTS\E11_RT_PIPELINE_2\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Vulkan/PathTracingLearn/vk_mini_path_tracer -BE:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build --check-stamp-file E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build/checkpoints/e11_rt_pipeline_2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

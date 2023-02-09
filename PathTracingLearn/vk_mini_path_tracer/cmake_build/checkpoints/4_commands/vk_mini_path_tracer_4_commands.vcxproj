@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F88EECB1-1213-3BAE-A196-BE30549F7484}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>vk_mini_path_tracer_4_commands</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Vulkan\PathTracingLearn\bin_x64\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vk_mini_path_tracer_4_commands.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vk_mini_path_tracer_4_commands</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Vulkan\PathTracingLearn\bin_x64\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vk_mini_path_tracer_4_commands.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vk_mini_path_tracer_4_commands</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Vulkan\PathTracingLearn\bin_x64\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vk_mini_path_tracer_4_commands.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vk_mini_path_tracer_4_commands</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Vulkan\PathTracingLearn\bin_x64\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vk_mini_path_tracer_4_commands.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vk_mini_path_tracer_4_commands</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\nvpro_core;E:\Vulkan\PathTracingLearn\nvpro_core\nvp;D:\ToolSoftwares\Vulkan\Include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\glfw\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\imgui;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinyobjloader;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\stb;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\cgltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\vma\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\NVTX\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;RESOURCE_DIRECTORY="E:/Vulkan/PathTracingLearn/nvpro_core/resources/";NOMINMAX;NVP_SUPPORTS_VULKANSDK;VK_ENABLE_BETA_EXTENSIONS;VULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1;VK_USE_PLATFORM_WIN32_KHR;PROJECT_NAME="vk_mini_path_tracer_4_commands";PROJECT_RELDIRECTORY="../../vk_mini_path_tracer/checkpoints/4_commands/";PROJECT_DOWNLOAD_RELDIRECTORY="../../downloaded_resources/";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;RESOURCE_DIRECTORY=\"E:/Vulkan/PathTracingLearn/nvpro_core/resources/\";NOMINMAX;NVP_SUPPORTS_VULKANSDK;VK_ENABLE_BETA_EXTENSIONS;VULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1;VK_USE_PLATFORM_WIN32_KHR;PROJECT_NAME=\"vk_mini_path_tracer_4_commands\";PROJECT_RELDIRECTORY=\"../../vk_mini_path_tracer/checkpoints/4_commands/\";PROJECT_DOWNLOAD_RELDIRECTORY=\"../../downloaded_resources/\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\nvpro_core;E:\Vulkan\PathTracingLearn\nvpro_core\nvp;D:\ToolSoftwares\Vulkan\Include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\glfw\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\imgui;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinyobjloader;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\stb;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\cgltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\vma\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\NVTX\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\nvpro_core;E:\Vulkan\PathTracingLearn\nvpro_core\nvp;D:\ToolSoftwares\Vulkan\Include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\glfw\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\imgui;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinyobjloader;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\stb;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\cgltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\vma\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\NVTX\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\ToolSoftwares\Vulkan\Lib\vulkan-1.lib;E:\Vulkan\PathTracingLearn\bin_x64\Debug\nvpro_core_vk.lib;D:\ToolSoftwares\Vulkan\Lib\vulkan-1.lib;D:\ToolSoftwares\Vulkan\Lib\vulkan-1.lib;..\..\nvpro_core\third_party\glfw\src\Debug\glfw3.lib;..\..\nvpro_core\third_party\Debug\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Vulkan/PathTracingLearn/bin_x64/Debug/vk_mini_path_tracer_4_commands.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Vulkan/PathTracingLearn/bin_x64/Debug/vk_mini_path_tracer_4_commands.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\nvpro_core;E:\Vulkan\PathTracingLearn\nvpro_core\nvp;D:\ToolSoftwares\Vulkan\Include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\glfw\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\imgui;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinyobjloader;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\stb;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\cgltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\vma\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\NVTX\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RESOURCE_DIRECTORY="E:/Vulkan/PathTracingLearn/nvpro_core/resources/";NOMINMAX;NVP_SUPPORTS_VULKANSDK;VK_ENABLE_BETA_EXTENSIONS;VULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1;VK_USE_PLATFORM_WIN32_KHR;PROJECT_NAME="vk_mini_path_tracer_4_commands";PROJECT_RELDIRECTORY="../../vk_mini_path_tracer/checkpoints/4_commands/";PROJECT_DOWNLOAD_RELDIRECTORY="../../downloaded_resources/";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RESOURCE_DIRECTORY=\"E:/Vulkan/PathTracingLearn/nvpro_core/resources/\";NOMINMAX;NVP_SUPPORTS_VULKANSDK;VK_ENABLE_BETA_EXTENSIONS;VULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1;VK_USE_PLATFORM_WIN32_KHR;PROJECT_NAME=\"vk_mini_path_tracer_4_commands\";PROJECT_RELDIRECTORY=\"../../vk_mini_path_tracer/checkpoints/4_commands/\";PROJECT_DOWNLOAD_RELDIRECTORY=\"../../downloaded_resources/\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\nvpro_core;E:\Vulkan\PathTracingLearn\nvpro_core\nvp;D:\ToolSoftwares\Vulkan\Include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\glfw\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\imgui;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinyobjloader;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\stb;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\cgltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\vma\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\NVTX\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\nvpro_core;E:\Vulkan\PathTracingLearn\nvpro_core\nvp;D:\ToolSoftwares\Vulkan\Include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\glfw\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\imgui;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinyobjloader;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\stb;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\cgltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\vma\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\NVTX\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\ToolSoftwares\Vulkan\Lib\vulkan-1.lib;E:\Vulkan\PathTracingLearn\bin_x64\Release\nvpro_core_vk.lib;D:\ToolSoftwares\Vulkan\Lib\vulkan-1.lib;D:\ToolSoftwares\Vulkan\Lib\vulkan-1.lib;..\..\nvpro_core\third_party\glfw\src\Release\glfw3.lib;..\..\nvpro_core\third_party\Release\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Vulkan/PathTracingLearn/bin_x64/Release/vk_mini_path_tracer_4_commands.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Vulkan/PathTracingLearn/bin_x64/Release/vk_mini_path_tracer_4_commands.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\nvpro_core;E:\Vulkan\PathTracingLearn\nvpro_core\nvp;D:\ToolSoftwares\Vulkan\Include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\glfw\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\imgui;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinyobjloader;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\stb;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\cgltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\vma\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\NVTX\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RESOURCE_DIRECTORY="E:/Vulkan/PathTracingLearn/nvpro_core/resources/";NOMINMAX;NVP_SUPPORTS_VULKANSDK;VK_ENABLE_BETA_EXTENSIONS;VULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1;VK_USE_PLATFORM_WIN32_KHR;PROJECT_NAME="vk_mini_path_tracer_4_commands";PROJECT_RELDIRECTORY="../../vk_mini_path_tracer/checkpoints/4_commands/";PROJECT_DOWNLOAD_RELDIRECTORY="../../downloaded_resources/";CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RESOURCE_DIRECTORY=\"E:/Vulkan/PathTracingLearn/nvpro_core/resources/\";NOMINMAX;NVP_SUPPORTS_VULKANSDK;VK_ENABLE_BETA_EXTENSIONS;VULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1;VK_USE_PLATFORM_WIN32_KHR;PROJECT_NAME=\"vk_mini_path_tracer_4_commands\";PROJECT_RELDIRECTORY=\"../../vk_mini_path_tracer/checkpoints/4_commands/\";PROJECT_DOWNLOAD_RELDIRECTORY=\"../../downloaded_resources/\";CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\nvpro_core;E:\Vulkan\PathTracingLearn\nvpro_core\nvp;D:\ToolSoftwares\Vulkan\Include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\glfw\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\imgui;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinyobjloader;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\stb;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\cgltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\vma\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\NVTX\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\nvpro_core;E:\Vulkan\PathTracingLearn\nvpro_core\nvp;D:\ToolSoftwares\Vulkan\Include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\glfw\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\imgui;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinyobjloader;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\stb;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\cgltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\vma\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\NVTX\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\ToolSoftwares\Vulkan\Lib\vulkan-1.lib;E:\Vulkan\PathTracingLearn\bin_x64\MinSizeRel\nvpro_core_vk.lib;D:\ToolSoftwares\Vulkan\Lib\vulkan-1.lib;D:\ToolSoftwares\Vulkan\Lib\vulkan-1.lib;..\..\nvpro_core\third_party\glfw\src\MinSizeRel\glfw3.lib;..\..\nvpro_core\third_party\MinSizeRel\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Vulkan/PathTracingLearn/bin_x64/MinSizeRel/vk_mini_path_tracer_4_commands.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Vulkan/PathTracingLearn/bin_x64/MinSizeRel/vk_mini_path_tracer_4_commands.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\nvpro_core;E:\Vulkan\PathTracingLearn\nvpro_core\nvp;D:\ToolSoftwares\Vulkan\Include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\glfw\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\imgui;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinyobjloader;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\stb;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\cgltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\vma\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\NVTX\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RESOURCE_DIRECTORY="E:/Vulkan/PathTracingLearn/nvpro_core/resources/";NOMINMAX;NVP_SUPPORTS_VULKANSDK;VK_ENABLE_BETA_EXTENSIONS;VULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1;VK_USE_PLATFORM_WIN32_KHR;PROJECT_NAME="vk_mini_path_tracer_4_commands";PROJECT_RELDIRECTORY="../../vk_mini_path_tracer/checkpoints/4_commands/";PROJECT_DOWNLOAD_RELDIRECTORY="../../downloaded_resources/";CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RESOURCE_DIRECTORY=\"E:/Vulkan/PathTracingLearn/nvpro_core/resources/\";NOMINMAX;NVP_SUPPORTS_VULKANSDK;VK_ENABLE_BETA_EXTENSIONS;VULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1;VK_USE_PLATFORM_WIN32_KHR;PROJECT_NAME=\"vk_mini_path_tracer_4_commands\";PROJECT_RELDIRECTORY=\"../../vk_mini_path_tracer/checkpoints/4_commands/\";PROJECT_DOWNLOAD_RELDIRECTORY=\"../../downloaded_resources/\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\nvpro_core;E:\Vulkan\PathTracingLearn\nvpro_core\nvp;D:\ToolSoftwares\Vulkan\Include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\glfw\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\imgui;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinyobjloader;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\stb;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\cgltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\vma\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\NVTX\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\4_commands;E:\Vulkan\PathTracingLearn\nvpro_core;E:\Vulkan\PathTracingLearn\nvpro_core\nvp;D:\ToolSoftwares\Vulkan\Include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\glfw\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\imgui;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinyobjloader;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\stb;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\cgltf;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\vma\include;E:\Vulkan\PathTracingLearn\nvpro_core\third_party\NVTX\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\ToolSoftwares\Vulkan\Lib\vulkan-1.lib;E:\Vulkan\PathTracingLearn\bin_x64\RelWithDebInfo\nvpro_core_vk.lib;D:\ToolSoftwares\Vulkan\Lib\vulkan-1.lib;D:\ToolSoftwares\Vulkan\Lib\vulkan-1.lib;..\..\nvpro_core\third_party\glfw\src\RelWithDebInfo\glfw3.lib;..\..\nvpro_core\third_party\RelWithDebInfo\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Vulkan/PathTracingLearn/bin_x64/RelWithDebInfo/vk_mini_path_tracer_4_commands.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Vulkan/PathTracingLearn/bin_x64/RelWithDebInfo/vk_mini_path_tracer_4_commands.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\4_commands\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/checkpoints/4_commands/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Vulkan/PathTracingLearn/vk_mini_path_tracer -BE:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build --check-stamp-file E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build/checkpoints/4_commands/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\4_commands\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/checkpoints/4_commands/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Vulkan/PathTracingLearn/vk_mini_path_tracer -BE:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build --check-stamp-file E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build/checkpoints/4_commands/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\4_commands\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/checkpoints/4_commands/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Vulkan/PathTracingLearn/vk_mini_path_tracer -BE:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build --check-stamp-file E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build/checkpoints/4_commands/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\4_commands\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/checkpoints/4_commands/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Vulkan/PathTracingLearn/vk_mini_path_tracer -BE:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build --check-stamp-file E:/Vulkan/PathTracingLearn/vk_mini_path_tracer/cmake_build/checkpoints/4_commands/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\checkpoints\4_commands\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\checkpoints\4_commands\main.cpp" />
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvp\resources.h" />
+    <ResourceCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvp\resources.rc" />
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvp\perproject_globals.cpp" />
+    <ClCompile Include="E:\Vulkan\PathTracingLearn\nvpro_core\nvvk\nsight_aftermath_vk.cpp" />
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf\tiny_gltf.h" />
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinygltf\json.hpp" />
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\third_party\tinyobjloader\tiny_obj_loader.h" />
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\third_party\vma\include\vk_mem_alloc.h" />
+    <ClInclude Include="E:\Vulkan\PathTracingLearn\nvpro_core\third_party\NVTX\c\include\nvtx3\nvToolsExt.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\ZERO_CHECK.vcxproj">
+      <Project>{EA337BA8-DF7B-39E9-BED1-E3006B0EB8AB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\nvpro_core\third_party\glfw\src\glfw.vcxproj">
+      <Project>{568F5359-1B7B-3B7B-BB70-7686CD249156}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\nvpro_core\third_party\imgui.vcxproj">
+      <Project>{175049E8-E4FD-3E45-B858-2FB01DCF0AC7}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Vulkan\PathTracingLearn\vk_mini_path_tracer\cmake_build\nvpro_core\nvpro_core.vcxproj">
+      <Project>{A71B9A2A-7C68-3AA8-874A-D3236E283F7A}</Project>
+      <Name>nvpro_core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
